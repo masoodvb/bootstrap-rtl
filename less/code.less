@@ -21,6 +21,16 @@ code {
   border-radius: @border-radius-base;
 }
 
+// User input typically entered via keyboard
+kbd {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: @kbd-color;
+  background-color: @kbd-bg;
+  border-radius: @border-radius-small;
+  box-shadow: inset 0 -1px 0 rgba(0,0,0,.25);
+}
+
 // Blocks of code
 pre {
   display: block;
@@ -34,6 +44,7 @@ pre {
   background-color: @pre-bg;
   border: 1px solid @pre-border-color;
   border-radius: @border-radius-base;
+  direction: ltr;
 
   // Account for some code outputs that place code tags in pre tags
   code {
@@ -44,10 +55,6 @@ pre {
     background-color: transparent;
     border-radius: 0;
   }
-
-  //bootweek styles
-  direction: ltr;
-  text-align: left !important;
 }
 
 // Enable scrollable blocks of code

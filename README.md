@@ -1,4 +1,4 @@
-# [Bootstrap RTL](http://getbootstrap.com)
+# [Bootstrap RTL v3.1.1](http://getbootstrap.com)
 Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development, created and maintained by [Mark Otto](http://twitter.com/mdo) and [Jacob Thornton](http://twitter.com/fat).
 
 To get started, check out <http://getbootstrap.com>!
@@ -12,14 +12,12 @@ Within the download you'll find the following directories and files, logically g
 bootstrap/
 ├── css
 │   ├── ltr
-│   │   ├── bootstrap-theme.css
-│   │   ├── bootstrap-theme.min.css
 │   │   ├── bootstrap.css
 │   │   └── bootstrap.min.css
 │   └── rtl
 │       ├── bootstrap.css
 │       ├── bootstrap.min.css
-│       └── bootstrap-theme.css
+│
 ├── fonts
 │   ├── BYekan.eot
 │   ├── BYekan.ttf
